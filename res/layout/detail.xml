@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!-- Projets-->
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Objectif     :"
+                android:id="@+id/tobectif"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jobjectif" android:layout_weight="1"/>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter3" android:layout_gravity="right"/>
+
+    <!-- experience pro-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Experience :"
+                android:id="@+id/texperience"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jexperince" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Duree          :"
+                android:id="@+id/tduree2"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jduree2" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter2" android:layout_gravity="right"/>
+
+    <!-- Scolarités-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ecole          :"
+                android:id="@+id/tecole"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jecole" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Année         :"
+                android:id="@+id/tannee"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jannee" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter" android:layout_gravity="right"/>
+
+
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Suivant"
+            android:id="@+id/bsuivant" android:layout_gravity="right"/>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:id="@+id/bretour" android:layout_gravity="right"/>
+</LinearLayout>

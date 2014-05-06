@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <!-- competences-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Compétence      :"
+                android:id="@+id/tcompetence"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jcompetence" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter" android:layout_gravity="right"/>
+
+    <!-- langues-->
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Langue      :"
+                android:id="@+id/tlangue"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jlangue" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Niveau       :"
+                android:id="@+id/tniveau"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jniveau" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter2" android:layout_gravity="right"/>
+
+    <!-- competence en informatique-->
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="0.00">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CompInfo   :"
+                android:id="@+id/tinteret"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/jinteret" android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Ajouter"
+            android:id="@+id/bajouter3" android:layout_gravity="right"/>
+
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Retour"
+            android:id="@+id/bretour" android:layout_gravity="right"/>
+    <Button
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Save resume"
+            android:id="@+id/benregistrer" android:layout_gravity="right"/>
+
+</LinearLayout>
